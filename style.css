@@ -136,7 +136,6 @@ body {
   .certList {
     display: inline-block;
     width: 25%;
-    display: flex;
   }
   .certImg {
     max-width: 190px;
