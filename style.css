@@ -11,6 +11,8 @@ body {
     z-index: 100;
     font-size: small;
     text-align: right;
+    background-color: #000000;
+    color: antiquewhite;
   }
   p {
     padding-left: 15px;
