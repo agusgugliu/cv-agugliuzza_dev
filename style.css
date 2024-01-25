@@ -5,6 +5,8 @@ body {
     margin-right: 15px;
   }
   footer {
+    position: fixed;
+    bottom: 0;
     font-size: small;
     text-align: right;
   }
@@ -37,6 +39,8 @@ body {
   }
   
   .profileHeader {
+    position: fixed;
+    top: 0;
     padding: 15px;
     background-color: #000000;
     border-radius: 25px;
