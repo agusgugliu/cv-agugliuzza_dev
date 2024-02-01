@@ -19,8 +19,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h3 {
-    background-color: burlywood;
-    color: brown;
+    background-color: #c1c6a7;
+    color: gray;
     border-radius: 25px;
     padding-left: 10px;
     padding-top: 7px;
@@ -43,8 +43,8 @@ body {
   .profileHeader {
     padding: 15px;
     border-radius: 25px;
-    background-color: brown;
-    color: burlywood;
+    background-color: #989c83;
+    color: whitesmoke;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .profilePic {
