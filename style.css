@@ -42,9 +42,9 @@ body {
   
   .profileHeader {
     padding: 15px;
-    background-color: burlywood;
     border-radius: 25px;
-    color: brown;
+    background-color: brown;
+    color: burlywood;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .profilePic {
@@ -171,8 +171,8 @@ progress::-moz-progress-bar {
 }
 
 footer {
-  font-size: small;
+  padding: 5px;
   text-align: right;
-  background-color: burlywood;
-  color: brown;
+  background-color: brown;
+  color: burlywood;
 }
