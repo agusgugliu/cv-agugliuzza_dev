@@ -117,15 +117,15 @@ body {
     max-width: 180px;
   }
   .workCurrent {
-    color: brown;
-    border-color: burlywood;
+    color: gray;
+    border-color: gainsboro;
     border-style: solid;
     padding: 10px;
     border-radius: 25px;
     background-color: white;
   }
   .workPrevious {
-    color: gray;
+    color: gainsboro;
   }
   
   
