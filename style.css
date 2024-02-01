@@ -117,15 +117,15 @@ body {
     max-width: 180px;
   }
   .workCurrent {
-    color: #3a3b55;
-    border-color: #3a3b55;
+    color: brown;
+    border-color: burlywood;
     border-style: solid;
     padding: 10px;
     border-radius: 25px;
     background-color: white;
   }
   .workPrevious {
-    color: #717171;
+    color: bisque;
   }
   
   
