@@ -160,7 +160,15 @@ progress {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
-
+progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+}
+progress::-webkit-progress-value {
+  background-color: #3a3b55;
+}
+progress::-moz-progress-bar {
+  background-color: #3a3b55;
+}
 
 footer {
   font-size: small;
