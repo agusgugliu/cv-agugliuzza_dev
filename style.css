@@ -12,11 +12,11 @@ body {
 
   h1 {
     text-align: center;
-    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h2 {
     text-align: center;
-    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h3 {
     background-color: #3a3b55;
