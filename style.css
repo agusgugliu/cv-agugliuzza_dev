@@ -19,8 +19,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h3 {
-    background-color: #c1c6a7;
-    color: gray;
+    background-color: #6b7e72;
+    color: white;
     border-radius: 25px;
     padding-left: 10px;
     padding-top: 7px;
@@ -28,8 +28,8 @@ body {
   }
   h4 {
     padding-left: 25px;
-    background-color: bisque;
-    color: gray;
+    background-color: #9eb1a5;
+    color: darkgreen;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 25px;
