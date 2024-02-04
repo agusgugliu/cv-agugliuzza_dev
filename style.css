@@ -171,8 +171,8 @@ progress::-moz-progress-bar {
 }
 
 footer {
-  padding: 
-  2.5px;
+  padding: 2.5px;
+  margin-left: 10%;
   text-align: right;
   background-color: #3c4147;
   color: whitesmoke;
