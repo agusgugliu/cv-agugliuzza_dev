@@ -1,13 +1,14 @@
+.profileHeader {
+  padding: 15px;
+  background-color: #2d2a21;
+  color: antiquewhite;
+  border-radius: 15px;
+}
 
-
-
-
-
-/*
-=====
-RESET
-=====
-*/
+.profilePic {
+  float: right;
+  max-height: 125px;
+}
 
 :where(.ra-link){
   display: var(--ra-link-display, inline-flex);
