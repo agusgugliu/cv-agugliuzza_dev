@@ -177,3 +177,46 @@ footer {
   background-color: #3c4147;
   color: whitesmoke;
 }
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+*/
+
+/* Style the timeline container */
+.timeline {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the timeline items */
+.timeline-item {
+  border-left: 2px solid #007BFF; /* Change the color as needed */
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the timeline content */
+.timeline-content {
+  padding: 10px;
+}
+
+/* Optional: Style the heading and description */
+.timeline-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timeline-content p {
+  font-size: 14px;
+}
