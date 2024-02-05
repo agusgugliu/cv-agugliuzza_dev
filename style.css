@@ -1,15 +1,41 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2f3435;
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  line-height: 1;
+}
+
+
 h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #7ea5ac;
   color: #193035;
   border-radius: 5px;
   padding: 5px;
   padding-left: 10px;
+}
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+  padding-left: 15px;
+  background-color: #c4dbdf;
+  border-radius: 5px;
+}
+
+li {
+  display: block;
 }
 
 .profileHeader {
@@ -23,20 +49,68 @@ h3 {
   padding: 15px;
 }
 
+
 .personalList {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flexbox;
   flex-direction: row;
+  border-left: 2px solid #193035;
+  padding-left: 10px;
 }
 .chatWhatsapp {
   max-height: 30px;
   float: right;
 }
 
+.expJob {
+
+}
+.expEmployer {
+
+}
+.expImg {
+  float: right;
+  max-width: 20%;
+  border-radius: 25px;
+}
+
 
 footer {
   text-align: right;
+  padding: 5px;
 }
 
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+progress {
+  /* Tamaño */
+  width: 100%;
+  height: 20px;
+
+  /* Color y Bordes */
+  color: #405457; /* Color de la barra en algunos navegadores */
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  /* Sombra */
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para Webkit/Blink */
+progress::-webkit-progress-bar {
+  background-color: #426a72;
+}
+
+progress::-webkit-progress-value {
+  background-color: #9eb1b5;
+}
+
+/* Estilo para Firefox */
+progress::-moz-progress-bar {
+  background-color: #9eb1b5;
+}
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
@@ -413,22 +487,6 @@ DEMO
 
 [data-uia-timeline-skin="3"]{
 	--uia-timeline-year-background-color: #4557bb;
-}
-
-body{
-  font-family: Calibri;
-  color: #222;
-
-  background-color: #f0f0f0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-p{
-  margin-top: 0;
-  margin-bottom: 1rem;
-  line-height: 1.5;
 }
 
 p:last-child{
