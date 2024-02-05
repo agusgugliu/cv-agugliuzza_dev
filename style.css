@@ -4,24 +4,42 @@ h1 {
 h2 {
   text-align: center;
 }
+h3 {
+  background-color: #7ea5ac;
+  color: #193035;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+}
 
 .profileHeader {
-  padding: 15px;
-  background-color: #405457;
-  color: #193035;
+  background-color: #193035;
+  color: #9ecdd7;
   border-radius: 15px;
 }
 .profilePic {
   float: right;
   max-height: 125px;
+  padding: 15px;
 }
 
+.personalList {
+  display: flexbox;
+  flex-direction: row;
+}
 .chatWhatsapp {
   max-height: 30px;
   float: right;
 }
 
 
+footer {
+  text-align: right;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
 :where(.ra-link){
   display: var(--ra-link-display, inline-flex);
 }
