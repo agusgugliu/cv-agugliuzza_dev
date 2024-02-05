@@ -91,6 +91,10 @@ li {
 }
 
 
+.eduImg {
+  width: 30%;
+}
+
 footer {
   text-align: right;
   padding: 5px;
@@ -181,12 +185,13 @@ SKIN 1
 [data-uia-timeline-skin="skin-1"] .uia-timeline__step{
 	border: solid;
   border-color: #193035;
+  background-color: #405457;
   border-radius: 5px;
   padding: 5px;
   line-height: 1;
 	font-size: var(--uia-timeline-step-font-size, 2rem);
 	font-weight: var(--uia-timeline-step-font-weight, 700);
-	color: var(--uia-timeline-step-color);
+	color: whitesmoke
 }
 
 [data-uia-timeline-skin="skin-1"] .uia-timeline__point-intro{
