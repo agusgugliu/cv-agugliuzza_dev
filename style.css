@@ -63,15 +63,18 @@ li {
 }
 
 .expJob {
-
+  font-weight: bolder;
 }
 .expEmployer {
-
+  font-weight: bold;
 }
 .expImg {
   float: right;
   max-width: 20%;
   border-radius: 25px;
+}
+.expDesc {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -163,7 +166,11 @@ SKIN 1
 */
 
 [data-uia-timeline-skin="skin-1"] .uia-timeline__step{
-	line-height: 1;
+	border: solid;
+  border-color: #193035;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 1;
 	font-size: var(--uia-timeline-step-font-size, 2rem);
 	font-weight: var(--uia-timeline-step-font-weight, 700);
 	color: var(--uia-timeline-step-color);
