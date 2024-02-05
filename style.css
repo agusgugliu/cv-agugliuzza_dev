@@ -75,6 +75,19 @@ li {
 }
 .expDesc {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-left: 2px solid #193035;
+  padding-left: 10px;
+}
+.expList {
+  margin-left: 15px;
+  border-left: 2px solid #9eb1b5;
+  font-weight: bold;
+}
+.expSublist {
+  margin-left: 15px;
+  font-size: small;
+  padding-left: 10px;
+  font-weight: normal;
 }
 
 
