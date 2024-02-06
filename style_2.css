@@ -20,8 +20,8 @@ h2 {
 }
 h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #7ea5ac;
-  color: #193035;
+  background-color: #7e3b25;
+  color: whitesmoke;
   border-radius: 5px;
   padding: 5px;
   padding-left: 10px;
@@ -30,7 +30,8 @@ h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 5px;
   padding-left: 15px;
-  background-color: #c4dbdf;
+  background-color: #a84f31;
+  color: whitesmoke;
   border-radius: 5px;
 }
 
@@ -38,9 +39,29 @@ li {
   display: block;
 }
 
+.container {
+  margin: 0 2% 0 2%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.containerCol {
+  margin: 0 2% 0 2%;
+  border-radius: 15px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item {
+  text-align: left;
+}
+
 .profileHeader {
-  background-color: #193035;
-  color: #9ecdd7;
+  background-color: #432921;
+  color: whitesmoke;
   border-radius: 15px;
 }
 .profilePic {
@@ -49,13 +70,23 @@ li {
   padding: 15px;
 }
 
+.aboTxt {
+  background-color: #eee9e7;
+  border-left: 2px solid #7e2533;
+  padding-left: 10px;
+  margin-left: 2.5%;
+  border-right: 2px solid #7e2533;
+  padding-right: 10px;
+  margin-right: 2.5%;
+}
 
 .personalList {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flexbox;
   flex-direction: row;
-  border-left: 2px solid #193035;
+  border-left: 2px solid #7e2533;
   padding-left: 10px;
+  margin-left: 5%;
 }
 .chatWhatsapp {
   max-height: 30px;
