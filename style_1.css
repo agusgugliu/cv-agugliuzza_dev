@@ -16,20 +16,20 @@ body, html {
 }
 .header {
   top: 0;
-  height: 100px;
+  height: 15%;
 }
 .footer {
   bottom: 0;
 }
 .content {
-  margin-top: 100px;
+  margin-top: 6%;
   margin-bottom: 60px;
   padding: 20px;
 }
 .sidebar {
   position: fixed;
   left: 0;
-  top: 130px; 
+  top: 18%; 
   width: 200px;
   height: calc(100% - 100px); 
   background-color: #f4f4f4;
