@@ -1,0 +1,141 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header, .footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.header {
+  top: 0;
+  height: 100px;
+}
+.footer {
+  bottom: 0;
+}
+.content {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 130px; 
+  width: 200px;
+  height: calc(100% - 100px); 
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+  padding: 10px;
+  overflow-y: auto;
+}
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+h3 {
+  font-family: Calibri;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: small;
+}
+
+
+a {
+  color: gray;
+  font-style: normal;
+}
+
+.tab {
+  margin-left: 5%;
+}
+
+.aboutMe {
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactInfo {
+  display: inline-block;
+  
+}
+.imgFlag {
+  height: 10px;
+  width: 15px;
+}
+
+.skills {
+  font-size: small;
+}
+.skillList {
+  font-size: smaller;
+}
+
+.workExperience {
+  font-size: small;
+}
+.workExp {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 5px 0 5px 0;
+  margin-left: 10px;
+}
+.workTime {
+  color: black;
+  background-color: lightslategray;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: medium;
+  font: small-caps;
+}
+.workTitle {
+  font-weight: bolder;
+  font: icon;
+  color: black;
+}
+.workPlace {
+  font: status-bar;
+  color:grey
+}
+
+.list {
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style-type: circle;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+.sublist {
+  list-style-type: square;
+  margin-left: 5px;
+}
+
+.certList {
+  font-size: smaller;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.certHeader {
+  font-weight: bold;
+}
+.certImg {
+  max-height: 70px;
+  text-align: center;
+}
