@@ -171,3 +171,38 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: #9eb1b5;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .container, .containerCol {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  .profilePic {
+    float: none;
+    display: block;
+    margin: 0 auto; /* Centra la imagen en dispositivos móviles */
+  }
+
+  .item, .itemCol {
+    text-align: center; /* Centra el texto en dispositivos móviles */
+  }
+
+  h3, h4 {
+    font-size: smaller; /* Reduce el tamaño del texto para encabezados en dispositivos móviles */
+  }
+
+  .expImg {
+    max-width: 50%; /* Aumenta el tamaño de las imágenes para que sean más visibles en dispositivos móviles */
+  }
+  
+  /* Ajustes adicionales para mejorar la visualización en dispositivos móviles */
+}
