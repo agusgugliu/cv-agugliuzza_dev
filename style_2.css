@@ -203,6 +203,28 @@ progress::-moz-progress-bar {
   .expImg {
     max-width: 50%; /* Aumenta el tamaño de las imágenes para que sean más visibles en dispositivos móviles */
   }
+
+  .sidebar {
+    order: 2; /* Asegura que el sidebar venga después del header */
+    width: auto; /* Permite que el sidebar ocupe el ancho completo en dispositivos móviles */
+    margin: 0; /* Ajusta el margen según sea necesario */
+  }
+
+  .content {
+    order: 3; /* Asegura que el contenido principal venga después del sidebar */
+  }
+
+  .header {
+    order: 1; /* Mantiene el header al principio */
+  }
+
+  body {
+    flex-direction: column; /* Cambia la disposición a columna para dispositivos móviles */
+  }
+    
+    /* Otros ajustes de estilos para dispositivos móviles */
+  }
+  
   
   /* Ajustes adicionales para mejorar la visualización en dispositivos móviles */
 }
