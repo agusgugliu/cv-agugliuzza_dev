@@ -139,3 +139,13 @@ a {
   max-height: 70px;
   text-align: center;
 }
+
+.imgPrf {
+  float: right;
+  max-width: 100px;
+  margin-right: 50px;
+  margin-top: 12px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 15%;
+}
