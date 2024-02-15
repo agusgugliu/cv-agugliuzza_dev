@@ -53,6 +53,16 @@ ul {
   font-size: small;
 }
 
+table {
+  width: fit-content;
+  font-size: small;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: left;
+}
 
 a {
   color: gray;
@@ -175,8 +185,24 @@ a {
     text-align: center; /* Centra el texto en dispositivos móviles */
   }
 
-  h3, h4 {
-    font-size: smaller; /* Reduce el tamaño del texto para encabezados en dispositivos móviles */
+  h1 {
+    text-align: left;
+    padding: 1%;
+  } 
+  h2 {
+    text-align: left;
+    padding: 2%;
+  }
+  h3 {
+    font-size: large;
+    border-bottom: solid 1px;
+  }
+  h4 {
+    font-size: small;
+  }
+
+  .table {
+    font-size: xx-small;
   }
 
   .expImg {
@@ -184,23 +210,25 @@ a {
   }
 
   .header {
-    order: 1; /* Mantiene el header al principio */
-    position: sticky;
     height: fit-content;
+    order: 1; 
+    position: sticky;
   }
 
   .sidebar {
-    order: 2; /* Asegura que el sidebar venga después del header */
-    width: auto; /* Permite que el sidebar ocupe el ancho completo en dispositivos móviles */
-    margin: 0; /* Ajusta el margen según sea necesario */
+    order: 2; 
+    width: auto; 
+    margin: 0; 
     position: sticky;
     top: auto;
     left: 0;
     height: fit-content;
+    box-shadow: none;
+    background: none;
   }
 
   .content {
-    order: 3; /* Asegura que el contenido principal venga después del sidebar */
+    order: 3; 
     left: 0;
     top: 0;
     width: 100%;
@@ -212,7 +240,50 @@ a {
   .main-content {
     left: 0;
     top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0;
   }
-    
-    /* Otros ajustes de estilos para dispositivos móviles */
+
+  .personalInfo {
+    font-size: smaller;
+  }
+
+  .skillList {
+    font-size: smaller;
+  }
+  
+  hr {
+    display: none;
+  }
+
+  .workExp {
+    margin-left: 0;
+    background-color: whitesmoke;
+    border: none;
+  }
+
+  .workTime {
+    text-align: left;
+    border: none;
+    background-color: gray;
+  }
+
+  .list {
+    display: block;
+    column-count: 1;
+  }
+
+  .certList {
+    display: flex;
+    flex-direction: column;
+  }
+  .certImg {
+    max-width: 25%;
+    max-height: 50%;
+  }
+
+  .footer {
+    position: sticky;
+  }
 }
