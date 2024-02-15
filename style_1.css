@@ -155,9 +155,9 @@ a {
   max-width: 100px;
   margin-right: 50px;
   margin-top: 12px;
-  background-color: white;
+  background-color: beige;
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 50%;
 }
 
 
@@ -296,5 +296,9 @@ a {
 
   .footer {
     position: sticky;
+  }
+
+  .imgFlag {
+    border-radius: 25%;
   }
 }
