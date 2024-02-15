@@ -179,6 +179,7 @@ a {
     display: block;
     margin: 0 auto; /* Centra la imagen en dispositivos móviles */
     max-height: 50%;
+    margin-right: 2%;
   }
 
   .item, .itemCol {
@@ -203,6 +204,7 @@ a {
 
   .table {
     font-size: xx-small;
+    margin: auto;
   }
 
   .expImg {
@@ -247,8 +249,14 @@ a {
 
   .personalInfo {
     font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  .skills {
+    margin: auto;
+  }
   .skillList {
     font-size: smaller;
   }
