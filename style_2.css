@@ -187,9 +187,10 @@ progress::-moz-progress-bar {
   }
 
   .profilePic {
-    float: none;
+    float: right;
     display: block;
     margin: 0 auto; /* Centra la imagen en dispositivos móviles */
+    max-height: 5%;
   }
 
   .item, .itemCol {
@@ -223,8 +224,5 @@ progress::-moz-progress-bar {
   }
     
     /* Otros ajustes de estilos para dispositivos móviles */
-  }
-  
-  
-  /* Ajustes adicionales para mejorar la visualización en dispositivos móviles */
 }
+

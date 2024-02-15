@@ -149,3 +149,70 @@ a {
   padding: 5px;
   border-radius: 15%;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container, .containerCol {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  .imgPrf {
+    float: right;
+    display: block;
+    margin: 0 auto; /* Centra la imagen en dispositivos móviles */
+    max-height: 50%;
+  }
+
+  .item, .itemCol {
+    text-align: center; /* Centra el texto en dispositivos móviles */
+  }
+
+  h3, h4 {
+    font-size: smaller; /* Reduce el tamaño del texto para encabezados en dispositivos móviles */
+  }
+
+  .expImg {
+    max-width: 50%; /* Aumenta el tamaño de las imágenes para que sean más visibles en dispositivos móviles */
+  }
+
+  .header {
+    order: 1; /* Mantiene el header al principio */
+    position: sticky;
+    height: fit-content;
+  }
+
+  .sidebar {
+    order: 2; /* Asegura que el sidebar venga después del header */
+    width: auto; /* Permite que el sidebar ocupe el ancho completo en dispositivos móviles */
+    margin: 0; /* Ajusta el margen según sea necesario */
+    position: sticky;
+    top: auto;
+    left: 0;
+    height: fit-content;
+  }
+
+  .content {
+    order: 3; /* Asegura que el contenido principal venga después del sidebar */
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .main-content {
+    left: 0;
+    top: 0;
+  }
+    
+    /* Otros ajustes de estilos para dispositivos móviles */
+}
