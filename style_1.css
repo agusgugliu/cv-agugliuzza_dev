@@ -179,7 +179,10 @@ a {
     display: block;
     margin: 0 auto; /* Centra la imagen en dispositivos móviles */
     max-height: 50%;
-    margin-right: 2%;
+    margin-right: 3%;
+    padding: 2%;
+    border-radius: 50%;
+    background-color: beige;
   }
 
   .item, .itemCol {
