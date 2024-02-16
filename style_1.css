@@ -135,7 +135,6 @@ a {
   -moz-column-count: 3;
   column-count: 3;
 }
-
 .sublist {
   list-style-type: square;
   margin-left: 5px;
@@ -151,9 +150,13 @@ a {
   font-weight: bold;
 }
 .certImg {
-  max-height: 15%;
-  max-width: 40%;
+  max-height: 5%;
+  max-width: 20%;
   text-align: center;
+}
+
+.certImg:hover {
+  transform: scale(1.75) translateX(20%);
 }
 
 .imgPrf {
