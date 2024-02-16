@@ -10,7 +10,7 @@ body, html {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: sticky;
+  position: fixed;
   width: 100%;
   z-index: 1;
 }
@@ -30,7 +30,7 @@ body, html {
 .sidebar {
   position: fixed;
   left: 0;
-  top: 18%; 
+  top: 150px; 
   width: 200px;
   height: calc(100% - 100px); 
   background-color: #f4f4f4;
@@ -138,16 +138,17 @@ a {
 }
 
 .certList {
-  font-size: smaller;
+  font-size: medium;
   -webkit-column-count: 3;
   -moz-column-count: 3;
-  column-count: 3;
+  column-count: 1;
 }
 .certHeader {
   font-weight: bold;
 }
 .certImg {
-  max-height: 70px;
+  max-height: 15%;
+  max-width: 40%;
   text-align: center;
 }
 
@@ -159,6 +160,21 @@ a {
   background-color: beige;
   padding: 5px;
   border-radius: 50%;
+}
+
+
+progress {
+  width: 80%;
+  accent-color: black;    
+}
+progress::-webkit-progress-bar {
+  background-color: gray;
+}
+progress::-webkit-progress-value {
+  background-color: blue;
+}
+progress::-moz-progress-bar {
+  background-color: blue;
 }
 
 
@@ -179,7 +195,7 @@ a {
   .imgPrf {
     float: right;
     display: block;
-    margin: 0 auto; /* Centra la imagen en dispositivos móviles */
+    margin: 0 auto; 
     max-height: 5%;
     max-width: 10%;
     margin-right: 3%;
@@ -189,7 +205,7 @@ a {
   }
 
   .item, .itemCol {
-    text-align: center; /* Centra el texto en dispositivos móviles */
+    text-align: center;
   }
 
   h1, h2 {
@@ -225,7 +241,7 @@ a {
   }
 
   .expImg {
-    max-width: 50%; /* Aumenta el tamaño de las imágenes para que sean más visibles en dispositivos móviles */
+    max-width: 50%; 
   }
 
   .header {
@@ -291,7 +307,8 @@ a {
   .workTime {
     text-align: left;
     border: none;
-    background-color: gray;
+    border-radius: 5px;
+    background-color: burlywood;
   }
   .workTitle {
     font-size: medium;
@@ -300,9 +317,9 @@ a {
   }
   .workPlace {
     font-size: medium;
-    font: normal;
+    font: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: brown;
+    color: slategray;
   }
 
   .list {
@@ -328,16 +345,13 @@ a {
   .imgFlag {
     border-radius: 25%;
   }
-  /* For WebKit (Chrome, Safari) */
+  
   progress::-webkit-progress-bar {
     background-color: gray;
   }
-
   progress::-webkit-progress-value {
     background-color: blue;
   }
-
-  /* For Mozilla Firefox */
   progress::-moz-progress-bar {
     background-color: blue;
   }
