@@ -61,7 +61,8 @@ table {
   font-size: small;
 }
 th {
-  text-align: left;
+  text-align: center;
+  vertical-align: center;
 }
 td {
   text-align: left;
