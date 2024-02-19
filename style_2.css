@@ -130,6 +130,14 @@ li {
   font-weight: normal;
 }
 
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+}
 
 .eduImg {
   width: 30%;
