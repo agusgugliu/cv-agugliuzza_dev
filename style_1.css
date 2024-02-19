@@ -346,10 +346,10 @@ progress::-moz-progress-bar {
     max-height: 75%;
     margin-bottom: 10px;
   }
-  .certImg:hover {
+  /*.certImg:hover {
     transform: none;
     z-index: none;
-  }
+  }*/
 
   .footer {
     position: sticky;
