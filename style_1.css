@@ -59,15 +59,12 @@ ul {
 table {
   width: fit-content;
   font-size: small;
-  vertical-align: center;
 }
 th {
-  text-align: center;
-  vertical-align: center;
+  text-align: left;
 }
 td {
-  text-align: center;
-  vertical-align: center;
+  text-align: left;
 }
 
 a {
