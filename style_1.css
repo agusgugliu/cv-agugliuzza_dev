@@ -1,382 +1,382 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.header, .footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-.header {
-  top: 0;
-  height: fit-content;
-}
-.footer {
-  bottom: 0;
-  height: fit-content;
-}
-.content {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 5px;
-  position: relative;
-  top: 150px;
-}
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 150px; 
-  width: 200px;
-  height: calc(100% - 100px); 
-  background-color: #f4f4f4;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
-  padding: 10px;
-  overflow-y: auto;
-}
-.main-content {
-  margin-left: 250px;
-  padding: 5px;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agustín Gugliuzza Piccinini</title>
+	<link rel="stylesheet" href="style_1.css">
+</head>
+<body>
 
-h3 {
-  font-family: Calibri;
-}
+    <div class="header">
+        <img class="imgPrf" src="images/initials.PNG">
+        <h1>AGUSTIN GUGLIUZZA PICCININI</h1>
+        <h2>Business Intelligence & Analytics | Project Management | Strategic Planning</h2>
+    </div>
+    
+    <div class="sidebar">
+        <h3>Personal Information</h3>
+        <div class="personalInfo">
+            <table>
+                <tr>
+                  <th>Date of Birth:</th>
+                  <td>  </td>
+                  <td>April 9<sup>th</sup>, 1995</td>
+                </tr>
+                <tr>
+                  <th>Place of Birth:</th>
+                  <td>  </td>
+                  <td>Veracruz, Mexico</td>
+                </tr>
+                <tr>
+                    <th>Nationality:</th>
+                    <td>  </td>
+                    <td>Argentina</td>
+                </tr>
+                <tr>
+                    <th>Place of Residence:</th>
+                    <td>  </td>
+                    <td>Buenos Aires, Argentina</td>
+                </tr>
+            </table>
+        </div>
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  font-size: small;
-}
+        <h3>Skills</h3>
+        <div class="skills">
+            <ul>
+                <h4>Languages</h4>
+                <li class="skillList"><label for='lgSpan'><img class="imgFlag" src="images/flags/spain.png"> </label><progress id="lgSpan" value="10" max="10">100%</progress></progress></li>
+                <li class="skillList"><label for='lgEng'><img class="imgFlag" src="images/flags/uk.png"> </label><progress id="lgEng" value="10" max="10">100%</progress></progress></li>
+                <li class="skillList"><label for='lgPort'><img class="imgFlag" src="images/flags/portugal.svg"> </label><progress id="lgPort" value="6" max="10">60%</progress></progress></li>
+                <li class="skillList"><label for='lgFrn'><img class="imgFlag" src="images/flags/france.jpg"> </label><progress id="lgFrn" value="4" max="10">40%</progress></progress></li>
+            </ul>
 
-table {
-  width: fit-content;
-  font-size: small;
-  border: solid 0.5px lightslategray
-}
-th {
-  text-align: center;
-  vertical-align: center;
-  border-left: solid 0.25px lightgray;
-  border-right: solid 0.25px lightgray;
-  border-bottom: solid 0.25px lightgray;
-}
-td {
-  border-left: solid 0.25px lightgray;
-  border-right: solid 0.25px lightgray;
-  border-bottom: solid 0.25px lightgray;
-}
-.notas {
-	text-align: center;
-	vertical-align: center;
-}
+            <ul>
+                <h4>Techical</h4>
+                <li class="skillList"><label for='busInt'>Business Intelligence & Analytics:</label><br><progress id="busInt" value="100" max="100">100%</progress></progress></li>
+                <li class="skillList"><label for='sqlMgm'>SQL & Database Management:</label><br><progress id="sqlMgm" value="90" max="100">90%</progress></progress></li>
+                <li class="skillList"><label for='mcfOff'>MicroSoft Office:</label><br><progress id="mcfOff" value="90" max="100">90%</progress></progress></li>
+                <li class="skillList"><label for='dbMod'>Database Modelling:</label><br><progress id="dbMod" value="90" max="100">90%</progress></progress></li>
+                <li class="skillList"><label for='pytPr'>Python:</label><br><progress id="pytPr" value="70" max="100">70%</progress></progress></li>
+                <li class="skillList"><label for='webDev'>HTML, CSS & JavaScript:</label><br><progress id="webDev" value="60" max="100">60%</progress></progress></li>
+            </ul>
+            
+            <ul>
+                <h4>Soft</h4>
+                <li class="skillList"><label for='sfPMg'>Project Management:</label><br><progress id="sfPMg" value="9" max="10">90%</progress></progress></li>
+                <li class="skillList"><label for='sfAgM'>Agile Methodologies:</label><br><progress id="sfAgM" value="9" max="10">90%</progress></progress></li>
+                <li class="skillList"><label for='sfTLd'>Team Leadership:</label><br><progress id="sfTLd" value="9" max="10">90%</progress></progress></li>
+                <li class="skillList"><label for='sfPbR'>Problem Resolution:</label><br><progress id="sfPbR" value="8" max="10">80%</progress></progress></li>
+            </ul>
+        </div>
 
-a {
-  color: gray;
-  font-style: normal;
-}
+    </div>
 
-.tab {
-  margin-left: 5%;
-}
+    <div class="content">
+        <div class="main-content">
+            <h3>About Me</h3>
+            <div class="aboutMe">
+                <p>Experienced professional specializing in Business Intelligence, with a strong focus on end-to-end project management and software development. Multilingual, proficient in Spanish, English, and Portuguese, with basic French skills. Graduated from <strong>Instituto Tecnológico de Buenos Aires</strong> with a degree in Administration and Systems. Career includes roles at <strong>Prudential Seguros</strong> and <strong>MicroStrategy</strong>, where he developed skills in Business Intelligence & Analytics, Microsoft Office, MicroSoft SQL Server, Python, and JavaScript. He has a broad range of technical competencies, including MSTR Mobile Development, Performance Tuning, Dashboard Development, Transaction Services, Schema Objects, Data Modeling, Relational Database Management, and Big Data.</p>
+            </div>
+            <hr>
+            <h3>Experience</h3>
+            <div class="workExperience">
+                <h3 class="workExp">
+                    <span class="workTime">APR.22 - NOW</span> 
+                    <span class="workTitle">BI, Finance & HR - Software Dev. Team Lead</span>
+                    <span class="workPlace"><i class="fa-solid fa-angles-right"></i> Prudential Seguros</span>
+                </h3>
+                <p>
+                    As a Project Manager and Team Leader in software development, specializing in <strong>Business Intelligence and Database Management</strong>, my role is integral to guiding our team through complex projects. I excel in orchestrating the project lifecycle, ensuring that everything from initial planning to final delivery aligns with our goals. My expertise in BI allows me to effectively manage large datasets and optimize our database systems.<br>I'm also deeply involved in implementing <strong>Agile Methodologies</strong>, a key aspect of our team's approach to adaptive and efficient project management. This includes regular sprint planning and maintaining clear communication channels within the team and with stakeholders.
+                    <br>Additionally, I oversee web development projects, ensuring that they are on track and meet our high standards of quality. Utilizing tools like <strong>JIRA</strong>, I monitor progress and swiftly address any challenges that arise. My role encompasses not just technical oversight but also team leadership, fostering a collaborative and productive environment.
+                    <br>In summary, my job is a dynamic blend of technical prowess, strategic planning, and team leadership, driving our projects to successful and timely completions.
+                    <ul class="list">
+                        <li>Agile Methodologies</li>
+                        <li>Project Management</li>
+                        <li>Business Intelligence & Analytics</li>
+                        <li>Database Management & Administration</li>
+                        <li>Web Development</li>
+                        <li>Team Management</li>
+                        <li>Resource Planning</li>
+                        <li>Objectives Definition & Tracking </li>
+                    </ul>
+                </p>
+                
+                <h3 class="workExp">
+                    <span class="workTime">AUG.17 - MAR.22</span> 
+                    <span class="workTitle">Business Intelligence Consultant</span>
+                    <span class="workPlace"><i class="fa-solid fa-angles-right"></i> MicroStrategy</span>
+                </h3>
+                <p>
+                    As a MicroStrategy Senior Consultant with a project management focus, my experience spans various industries, working with numerous clients to deliver bespoke <strong>Business Intelligence</strong> solutions. My expertise includes database modeling, MicroStrategy schema building, and crafting insightful reports and dashboards tailored to each client's specific needs.
+                    <br>A key part of my role is leveraging predictive analytics, utilizing tools like <strong>RScript and Python</strong> to glean forward-looking insights from data. This proficiency enables me to go beyond traditional reporting, offering clients advanced analytical capabilities. My skill set is not just technical but also consultative, ensuring that each solution is strategically aligned with the client's business objectives and industry nuances. My goal is to empower businesses with data-driven decision-making tools that drive tangible results.
+                    <ul class="list">
+                        <li>End-to-End Analytics Projects</li>
+                        <li>Scope & Acceptance Criteria Definition</li>
+                        <li>MicroStrategy Architect</li>
+                        <li>MicroStrategy Reports</li>
+                        <li>MicroStrategy Dashboards & Documents</li>
+                        <li>MicroStrategy Transaction Services</li>
+                        <li>Database Modelling</li>
+                        <li>Predictive Analytics</li>
+                    </ul>
+                </p>
+                <hr>
+                <h3 class="workExp">
+                    <span class="workTime">AUG.13 - JUL.17</span> 
+                    <span class="workTitle">Degree in Business & Systems Administration</span>
+                    <span class="workPlace"><i class="fa-solid fa-caret-right"></i> Instituto Tecnológico de Buenos Aires</span>
+                </h3>
+                <p>
+                    The Degree in Business & Systems Administration at ITBA is a four-year, on-campus degree program. It provides a comprehensive education that integrates knowledge and creativity essential for addressing the challenges of today’s business world.<br>
+                    The curriculum is designed to develop competencies necessary for leading companies and creating new businesses in a changing and competitive context, placing a fundamental emphasis on information technology. Students can successfully work in various sectors ranging from Marketing to Finance and Information Systems. They are well-prepared to lead in consumer goods, banking and finance, IT technology, consulting, retail, energy, and internet sectors.
+					<table>
+						<tr>
+							<th>COD</th>
+							<th>MATERIA</th>
+							<th>CURSADA</td>
+							<th>FINAL</td>
+						</tr>
+						<tr>
+							<th>71.80</th>
+							<td>Utilitarios en Informática</td>
+							<td class="notas">10<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">10<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.02</th>
+							<td>Introducción a la Licenciatura en Adm. & Sist.</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.07</th>
+							<td>Sistemas Contables</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>93.21</th>
+							<td>Álgebra</td>
+							<td class="notas">6<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th> </th>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+						</tr>
+						<tr>
+							<th>71.85</th>
+							<td>Programación</td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.08</th>
+							<td>Aplicación a las Telecomunicaciones</td>
+							<td class="notas">6<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>93.20</th>
+							<td>Análisis Matemático</td>
+							<td class="notas">5<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">6<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.60</th>
+							<td>Panorama Histórico Global</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.61</th>
+							<td>Filosofía</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th> </th>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+						</tr>
+						<tr>
+							<th>61.81</th>
+							<td>Microeconomía</td>
+							<td class="notas">6<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">6<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.11</th>
+							<td>Contabilidad Gerencial</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.52</th>
+							<td>Negocios & Tecnología en Internet</td>
+							<td class="notas">6<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">6<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>93.39</th>
+							<td>Estadística</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.62</th>
+							<td>Ética en los Negocios</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th> </th>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+						</tr>
+						<tr>
+							<th>61.12</th>
+							<td>Gestión Financiera</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">6<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>61.82</th>
+							<td>Macroeconomía</td>
+							<td class="notas">4<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">4<sup>25</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>61.90</th>
+							<td>Derecho Público & Privado</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.20</th>
+							<td>Comercialización</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.63</th>
+							<td>Epistemología & Heurística</td>
+							<td class="notas">5<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>25</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>11.83</th>
+							<td>Gestión de Operaciones</td>
+							<td class="notas">6<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">5<sup>25</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.21</th>
+							<td>Gestión de Ventas</td>
+							<td class="notas">5<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">6<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.30</th>
+							<td>Análisis & Modelado de Procesos de Negocios</td>
+							<td class="notas">9<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">9<sup>25</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.39</th>
+							<td>Sistemas Integrados de Gestión Empresaria<sup>I</sup></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.40</th>
+							<td>Estructura de las Organizaciones</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th> </th>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+						</tr>
+						<tr>
+							<th>11.84</th>
+							<td>Gestión de Proyectos</td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>11.85</th>
+							<td>Toma de Decisiones</td>
+							<td class="notas">7<sup>75</sup><sub>/10</sub></td>
+							<td class="notas">7<sup>75</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.31</th>
+							<td>Análisis & Diseño de Aplicaciones Informáticas</td>
+							<td class="notas">7<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>81.36</th>
+							<td>Sistemas Integrados de Gestión Empresaria<sup>II</sup></td>
+							<td class="notas">8<sup>00</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+						</tr>
+						<tr>
+							<th>94.41</th>
+							<td>Gestión de los Recursos Humanos</td>
+							<td class="notas">8<sup>50</sup><sub>/10</sub></td>
+							<td class="notas">8<sup>75</sup><sub>/10</sub></td>
+						</tr>
+					</table>
+                </p>
+                <hr>
+                <h3 class="workExp">
+                    <span class="workTime">MAR.11 - DEC.12</span> 
+                    <span class="workTitle">International Baccalaurate</span>
+                    <span class="workPlace"><i class="fa-solid fa-caret-right"></i> Colegio Lincoln Hall</span>
+                </h3>
+                <h3 class="workExp">
+                    <span class="workTime">MAR.04 - DEC.10</span> 
+                    <span class="workTitle">Secondary Scool</span>
+                    <span class="workPlace"><i class="fa-solid fa-caret-right"></i> St. John's School</span>
+                </h3>
+            </div>
+            <hr><hr>
+            <h3>Certifications</h3>
+            <ul class="certList">
+                <img class="certImg" src="images/certificates/microstrategy_architect.jpg">
+                <li class="certHeader">MSTR Certified Architect</li>
+                <li class="certSubHeader">MicroStrategy</li>
+                <li><br></li>
+                <img class="certImg" src="images/certificates/coderhouse_python.jpg">
+                <li class="certHeader">Python Web Development</li>
+                <li class="certSubHeader">CoderHouse</li>
+                <li><br></li>
+                <img class="certImg" src="images/certificates/cambridge_ib.jpg">
+                <li class="certHeader">International Baccalaurate</li>
+                <li class="certSubHeader">Cambridge</li>
+              </ul>
+        </div>
+    </div>
 
-.aboutMe {
-  font-size: small;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position: relative;
-  top: 0px;
-}
+    <div class="footer">
+        <ul>
+            <li class="contactInfo"><strong>E-Mail: </strong><a href="mailto:agusgugliuzza@gmail.com">agusgugliuzza@gmail.com</a></li>
+            <li class="contactInfo"> | </li>
+            <li class="contactInfo"><strong>Mobile: </strong><a href="https://wa.me/5491165063175">(+549)11-6506-3175</a></li>
+            <li class="contactInfo"> | </li>
+            <li class="contactInfo"><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/agust%C3%ADn-gugliuzza-piccinini">https://www.linkedin.com/in/agustin-gugliuzza-piccinini</a></li>
+        </ul>
+    </div>
 
-.contactInfo {
-  display: inline-block;
-  
-}
-.imgFlag {
-  height: 10px;
-  width: 15px;
-}
-
-.skills {
-  font-size: small;
-}
-.skillList {
-  font-size: smaller;
-}
-
-.workExperience {
-  font-size: small;
-}
-.workExp {
-  background-color: lightgrey;
-  border-radius: 10px;
-  padding: 5px 0 5px 0;
-  margin-left: 10px;
-}
-.workTime {
-  color: black;
-  background-color: lightslategray;
-  border: solid black 1px;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: medium;
-  font: small-caps;
-}
-.workTitle {
-  font-weight: bolder;
-  font: icon;
-  color: black;
-}
-.workPlace {
-  font: status-bar;
-  color:grey
-}
-
-.list {
-  margin-left: 5%;
-  margin-right: 5%;
-  list-style-type: circle;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
-.sublist {
-  list-style-type: square;
-  margin-left: 5px;
-}
-
-.certList {
-  font-size: medium;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  margin-bottom: 30px;
-}
-.certHeader {
-  font-weight: bold;
-}
-.certImg {
-  max-height: 5%;
-  max-width: 20%;
-  text-align: center;
-}
-
-/*.certImg:hover {
-  transform: scale(5) translateY(-50%);
-  z-index: 1000;
-}*/
-
-.imgPrf {
-  float: right;
-  max-width: 100px;
-  margin-right: 50px;
-  margin-top: 12px;
-  background-color: beige;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-
-progress {
-  width: 80%;
-  accent-color: black;    
-}
-progress::-webkit-progress-bar {
-  background-color: gray;
-}
-progress::-webkit-progress-value {
-  background-color: blue;
-}
-progress::-moz-progress-bar {
-  background-color: blue;
-}
-
-
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
-  .container, .containerCol {
-    flex-direction: column;
-    margin: 0 10px;
-  }
-
-  .imgPrf {
-    float: right;
-    display: block;
-    margin: 0 auto; 
-    max-height: 5%;
-    max-width: 10%;
-    margin-right: 3%;
-    padding: 2%;
-    border-radius: 50%;
-    background-color: beige;
-  }
-
-  .item, .itemCol {
-    text-align: center;
-  }
-
-  h1, h2 {
-    text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
-  } 
-  h1 {
-    color: beige;
-    font-size: large;
-  }
-  h2 {
-    color: black;
-    font-size: large;
-  }
-  h3 {
-    font-size: large;
-    border-bottom: solid 1px;
-  }
-  h4 {
-    font-size: small;
-  }
-  ul {
-    width: 100%;
-  }
-  progress {
-    width: 80%;
-    accent-color: black;    
-  }
-  table {
-    font-size: small;
-    margin: auto;
-  }
-
-  .expImg {
-    max-width: 50%; 
-  }
-
-  .header {
-    height: fit-content;
-    order: 1; 
-    position: sticky;
-  }
-
-  .sidebar {
-    order: 2; 
-    width: auto; 
-    margin: 0; 
-    position: sticky;
-    top: auto;
-    left: 0;
-    height: fit-content;
-    box-shadow: none;
-    background: none;
-  }
-
-  .content {
-    order: 3; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .main-content {
-    left: 0;
-    top: 0;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 0;
-  }
-
-  .personalInfo {
-    font-size: smaller;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .skills {
-    margin: auto;
-  }
-  .skillList {
-    font-size: smaller;
-  }
-  
-  hr {
-    display: none;
-  }
-
-  .workExp {
-    margin-left: 0;
-    background-color: whitesmoke;
-    border: none;
-    line-height: 150%;
-  }
-  .workTime {
-    text-align: left;
-    border: none;
-    border-radius: 5px;
-    background-color: burlywood;
-  }
-  .workTitle {
-    font-size: medium;
-    font: normal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .workPlace {
-    font-size: medium;
-    font: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: slategray;
-  }
-
-  .list {
-    display: block;
-    column-count: 1;
-  }
-
-  .certList {
-    display: flex;
-    flex-direction: column;
-    line-height: 100%;
-  }
-  .certImg {
-    max-width: 30%;
-    max-height: 75%;
-    margin-bottom: 10px;
-  }
-  /*.certImg:hover {
-    transform: none;
-    z-index: none;
-  }*/
-
-  .footer {
-    position: sticky;
-  }
-
-  .imgFlag {
-    border-radius: 25%;
-  }
-  
-  progress::-webkit-progress-bar {
-    background-color: gray;
-  }
-  progress::-webkit-progress-value {
-    background-color: blue;
-  }
-  progress::-moz-progress-bar {
-    background-color: blue;
-  }
-}
+    <script src="https://kit.fontawesome.com/294fa9cb4a.js" crossorigin="anonymous"></script>
+</body>
+</html>
