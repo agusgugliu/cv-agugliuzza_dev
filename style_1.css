@@ -74,6 +74,10 @@ td {
   border-right: solid 0.25px lightgray;
   border-bottom: solid 0.25px lightgray;
 }
+.notas {
+	text-align: center;
+	vertical-align: center;
+}
 
 a {
   color: gray;
