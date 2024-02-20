@@ -59,13 +59,20 @@ ul {
 table {
   width: fit-content;
   font-size: small;
+  border: solid 0.5px lightslategray
 }
 th {
   text-align: center;
   vertical-align: center;
+  border-left: solid 0.25px lightgray;
+  border-right: solid 0.25px lightgray;
+  border-bottom: solid 0.25px lightgray;
 }
 td {
   text-align: left;
+  border-left: solid 0.25px lightgray;
+  border-right: solid 0.25px lightgray;
+  border-bottom: solid 0.25px lightgray;
 }
 
 a {
