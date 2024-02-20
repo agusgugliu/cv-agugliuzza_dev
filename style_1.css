@@ -168,10 +168,10 @@ a {
   text-align: center;
 }
 
-.certImg:hover {
+/*.certImg:hover {
   transform: scale(5) translateY(-50%);
   z-index: 1000;
-}
+}*/
 
 .imgPrf {
   float: right;
