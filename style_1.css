@@ -112,6 +112,9 @@ a {
 
 .workExperience {
   font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .workExp {
   background-color: lightgrey;
